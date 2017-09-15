@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace VskEntities
 {
-    public interface IProduct
+    public class Product : Unit
     {
-        int Price { set; get; }
-
-        int CalcPrice();
+        public override int CalcPrice()
+        {
+            return Price;
+        }
     }
 }

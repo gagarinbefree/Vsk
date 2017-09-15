@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace VskEntities
 {
-    class VendingMachine
+    class Additive : Unit
     {
+        public override int CalcPrice()
+        {
+            return Price;
+        }
     }
 }
