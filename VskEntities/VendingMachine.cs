@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace VskEntities
 {
-    public interface ICompoundUnit : IUnit
+    public class VendingMachine
     {
-        
+        public Order OneOrder { set; get; }
     }
 }

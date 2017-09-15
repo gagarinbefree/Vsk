@@ -75,5 +75,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VskEntities\VskEntities.csproj">
+      <Project>{be8a9a13-79ec-4144-98e9-f2e087908115}</Project>
+      <Name>VskEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

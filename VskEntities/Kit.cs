@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace VskEntities
 {
-    public interface ICompoundUnit : IUnit
+    public class Kit : CompoundUnit
     {
-        
+        public override void Add(IUnit unit)
+        {
+            Children.Add(unit);
+        }        
     }
 }

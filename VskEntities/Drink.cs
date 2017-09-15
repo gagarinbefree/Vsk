@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace VskEntities
 {
-    public interface ICompoundUnit : IUnit
+    public class Drink : Unit
     {
-        
+        public override int CalcPrice()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
