@@ -8,7 +8,7 @@ namespace VskEntities
 {
     public static class VendingMachineCreator
     {
-        public static VendingMachine Create()
+        public static VendingMachine CreateMarkI()
         {
             VendingMachine res = new VendingMachine();
 
