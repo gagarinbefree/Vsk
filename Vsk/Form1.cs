@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VskEntities.Objects;
 
 namespace Vsk
 {
@@ -14,6 +15,8 @@ namespace Vsk
     {
         public Form1()
         {
+            VendingMachineCreator.CreateMarkI();
+
             InitializeComponent();
         }
     }
