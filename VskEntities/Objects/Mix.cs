@@ -19,7 +19,7 @@ namespace VskEntities.Objects
             Cnt = 1;
         }
 
-        public void AddChild(IEntity entity)
+        public void  AddChild(IEntity entity)
         {            
             _children.Add(entity);
             entity.Parent = this;
